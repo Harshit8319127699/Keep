@@ -1,0 +1,81 @@
+.createcontainer{
+    width: 80vw;
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.inputholder{
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmax;
+}
+.inp11{
+    width: 80vw;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp11 input{
+    width: 50vw;
+    height: 7.5vh;
+    border-radius: 1vmax;
+outline: none;
+border: 0.7px solid black;
+padding: 1vmax;
+font-size: 1.12vmax;
+font-family: Product sans;
+
+}
+.inp22{
+    width: 80vw;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1vmax;
+}
+.inp22 input{
+    width: 50vw;
+    height: 7.5vh;
+    border-radius: 1vmax;
+outline: none;
+border: 0.7px solid black;
+padding: 1vmax;
+font-size: 1.12vmax;
+font-family: Product sans;
+}
+.btn{
+    width: 3.4vmax;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 1vmax;
+border: none;
+}
+.notesholder{
+    width: 80vw;
+    height: 70vh;
+    padding:  2vmax;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes{
+    min-width: 12vw;
+    max-height: 18vh;
+    background-color: #e7e0e0;
+    border-radius:1vmax;
+    padding: 1.4vmax;
+    line-height: 1.5vmax;
+    font-size: 1.1vmax;
+    margin-right: 1vmax;
+    font-family: Product sans;
+    margin-top: 1vmax;
+}
+.notes h5{
+    width: 10vw;
+}

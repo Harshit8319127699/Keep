@@ -1,0 +1,61 @@
+nav{   
+    width:100vw;
+    height: 10vmin;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 15vw;
+    height: 10vmin;
+    display: flex;
+    justify-content: space-between;
+}
+.centre{
+    width: 40vw;
+    height: 10vmin;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.right{
+    width: 12vw;
+    height: 10vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.3vmin;
+    font-size: 1.6vmax;
+    font-weight: 100;
+    
+}
+.icon{
+    font-size: 1.8vmax;
+    padding: 1.5vmax 1.5vmax;
+}
+.img{
+    width: 9vw;
+    height: 10vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Product Sans;
+    font-weight: 100;
+}
+.img h3{
+    font-weight: 200;
+}
+.inp{
+    width: 39vw;
+    height: 7vmin;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 1.4vmin;
+    padding: 2vmin;
+    font-size: 1.4vmax;
+    font-family: Product sans;    
+}
+.holder{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}

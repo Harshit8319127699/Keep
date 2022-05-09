@@ -1,0 +1,13 @@
+.sidenav{
+    width: 20vw;
+    height: 55vh;
+    padding: 3vmax 3vmax;
+}
+
+link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6vmax;
+    font-family: Product sans;
+    margin-top: 2vmax;
+}
