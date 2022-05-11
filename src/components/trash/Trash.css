@@ -1,0 +1,38 @@
+.trashcontainer{
+    width: 80vw;
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.heading2{
+    width: inherit;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading2 h1{
+    font-family:Product sans;
+    font-size: 3vmax;
+    font-weight: 200;
+}
+.notesholder3{
+    width: 80vw;
+    height: 70vh;
+    padding:  2vmax;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes3{
+    min-width: 12vw;
+        max-height: 18vh;
+        background-color: #e7e0e0;
+        border-radius:1vmax;
+        padding: 1.4vmax;
+        line-height: 1.5vmax;
+        font-size: 1.1vmax;
+        margin-right: 1vmax;
+        font-family: Product sans;
+        margin-top: 1vmax;
+    
+}
