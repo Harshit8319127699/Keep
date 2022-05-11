@@ -8,6 +8,13 @@ const navigate=useNavigate()
   const deletenotes=(e)=>{
 let index=e.target.id
 let arr2=[...noteslist]
+let task={
+  title:arr2[index].title,
+  notes:arr2[index].notes
+}
+const arr3=[...trash]
+arr3.push(task)
+settrash(arr3)
 arr2.splice(index,1)
 setnoteslist(arr2)
 navigate("/")
