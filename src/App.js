@@ -25,7 +25,7 @@ function App() {
 <Routes>
 <Route path='/' element={<Create name={{notes,setnotes,noteslist,setnoteslist,trash,settrash}} />}></Route>
 <Route path='/delete' element={<Delete name={{notes,setnotes,noteslist,setnoteslist,trash,settrash}}/>}></Route>
-<Route path='/update' element={<Update name={{notes,setnotes,noteslist,setnoteslist,trash,settrash}}/>}></Route>
+<Route path=path='/update/:title/:note/:index' element={<Update name={{notes,setnotes,noteslist,setnoteslist,trash,settrash}}/>}></Route>
 <Route path='/trash' element={<Trash name={{notes,setnotes,noteslist,setnoteslist,trash,settrash}}/>}></Route>
 
 
