@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import "../create/Create.css"
 function Create(props) {
+  const navigate=useNavigate()
   const { notes, setnotes, noteslist, setnoteslist, trash, settrash } = { ...props.name }
   const [input1, setinput1] = useState("")
   const [input2, setinput2] = useState("")
@@ -21,10 +23,27 @@ function Create(props) {
     setinput1("")
     setinput2("")
   }
+  const update=(e)=>{
+let arr=[...noteslist]
+var a={
+  title:arr[e.target.id].title,
+  notes:arr[e.target.id].notes
+}
+setnotes({
+  ...notes,
+  a
+})
+navigate(`/update/${arr[e.target.id].title}/${arr[e.target.id].notes}/${e.target.id}`)
+  }
+
+
+
+
   let hold=noteslist.map((elem,id)=>{
     return <div className="notes" key={id} id={id}>
     <h5>Title:{elem.title}</h5>
     <p>notes :{elem.notes}</p>
+    <button onClick={update} id={id}>update</button>
   </div>
   })
 
